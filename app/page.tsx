@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f9fa] font-sans text-[#1a1a1a]">
-      {/* Hero Section & Form */}
-      <section className="relative bg-[#002d72] text-[#ffffff] py-12 lg:py-24 px-4 overflow-hidden">
+      {/* Hero Section */}
+      <section className="relative bg-[#002d72] text-[#ffffff] py-12 lg:py-32 px-4 overflow-hidden">
         {/* Decorative Element */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#cc0000] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
         
@@ -17,7 +17,7 @@ export default function Home() {
             <p className="text-lg md:text-xl text-[#e0e0e0] mb-8 leading-relaxed">
               Participa en la investigación cuantitativa oficial de la <strong>Universidad de Chile</strong>. Ayúdanos a construir el futuro del club más grande del país con tu opinión sincera.
             </p>
-            <ul className="space-y-4">
+            <ul className="space-y-4 mb-10">
               <li className="flex items-center gap-3">
                 <span className="text-[#f1c40f] text-xl">✓</span>
                 <span>Análisis estadístico del perfil del hincha</span>
@@ -31,58 +31,35 @@ export default function Home() {
                 <span>Resultados compartidos con la comunidad</span>
               </li>
             </ul>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a 
+                href="#encuesta"
+                className="inline-block text-center py-5 px-10 bg-[#cc0000] hover:bg-[#a30000] text-white font-black rounded-lg transition-transform hover:scale-[1.05] active:scale-95 shadow-2xl uppercase tracking-widest text-lg"
+              >
+                RESPONDER ENCUESTA
+              </a>
+            </div>
+            <p className="text-[10px] text-gray-400 mt-6 uppercase tracking-widest">
+              🔒 Participación anónima y segura bajo estándares académicos.
+            </p>
           </div>
 
-          <div className="bg-white p-8 rounded-2xl shadow-2xl text-[#1a1a1a]">
-            <h2 className="text-2xl font-bold mb-2 text-[#002d72]">Regístrate y Participa</h2>
-            <p className="text-gray-600 mb-6 text-sm">Completa tus datos para acceder al cuestionario oficial.</p>
-            
-            <form 
-              action="https://formspree.io/f/xyzabc" 
-              method="POST"
-              className="space-y-4"
-            >
-              <div>
-                <label htmlFor="name" className="block text-sm font-bold mb-1 text-[#002d72]">Nombre Completo</label>
-                <input 
-                  type="text" 
-                  name="name" 
-                  id="name"
-                  required 
-                  className="w-full px-4 py-3 border-2 border-[#e0e0e0] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002d72] focus:border-transparent transition-all"
-                  placeholder="Ej: Juan Pérez"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-bold mb-1 text-[#002d72]">Correo Electrónico</label>
-                <input 
-                  type="email" 
-                  name="email" 
-                  id="email"
-                  required 
-                  className="w-full px-4 py-3 border-2 border-[#e0e0e0] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#002d72] focus:border-transparent transition-all"
-                  placeholder="juan@ejemplo.cl"
-                />
-              </div>
-              
-              <div className="pt-2">
-                <button 
-                  type="submit"
-                  className="w-full py-4 px-6 bg-[#cc0000] hover:bg-[#a30000] text-white font-black rounded-lg transition-transform hover:scale-[1.02] active:scale-95 shadow-lg uppercase tracking-widest"
-                >
-                  RESPONDER ENCUESTA
-                </button>
-              </div>
-              <p className="text-[10px] text-center text-gray-400 mt-4 uppercase">
-                🔒 Tus datos están protegidos por la ley de privacidad vigente.
-              </p>
-            </form>
+          <div className="hidden lg:flex justify-center items-center">
+            <div className="relative">
+              <div className="absolute inset-0 bg-[#f1c40f] rounded-full blur-2xl opacity-20 animate-pulse"></div>
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Escudo_de_la_Universidad_de_Chile.svg/1200px-Escudo_de_la_Universidad_de_Chile.svg.png" 
+                alt="Logo U de Chile" 
+                className="w-64 h-64 object-contain relative z-10 drop-shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       </section>
 
       {/* Benefits/Info Section */}
-      <section className="py-20 px-4 bg-white">
+      <section id="encuesta" className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#002d72] mb-12">¿Por qué es importante tu participación?</h2>
           <div className="grid md:grid-cols-3 gap-8">
