@@ -10,13 +10,16 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f9fa] font-sans text-[#1a1a1a]">
-      {/* Hero Section - Altura optimizada de py-12/lg:py-32 a py-8/lg:py-16 */}
-      <section className="relative bg-[#003087] text-[#ffffff] py-8 lg:py-16 px-4 overflow-hidden">
+      {/* Hero Section - Background Image Added */}
+      <section 
+        className="relative bg-[#003087] text-[#ffffff] py-8 lg:py-16 px-4 overflow-hidden bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "linear-gradient(rgba(0, 48, 135, 0.85), rgba(0, 48, 135, 0.85)), url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/1902/LaU_BG-Scroll.png')" }}
+      >
         {/* Decorative Element */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#d91c21] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
-          {/* Nuevo Escudo LaU arriba del texto - Margen reducido de mb-8 a mb-4 */}
+          {/* Nuevo Escudo LaU arriba del texto */}
           <div className="mb-4">
             <img 
               src="https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/1902/Emblema_del_Club_Universidad_de_Chile.png" 
@@ -51,7 +54,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Benefits/Info Section - Espaciado aumentado (py-24) para volver al diseño original */}
+      {/* Benefits/Info Section */}
       <section id="encuesta" className="py-24 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="mb-16 text-left border-l-8 border-[#d91c21] pl-6">
