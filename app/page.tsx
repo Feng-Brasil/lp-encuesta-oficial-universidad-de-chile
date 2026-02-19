@@ -26,11 +26,13 @@ export default function Home() {
             >
               PARTICIPAR AHORA
             </a>
+            <p className="text-[10px] text-gray-400 mt-2 uppercase tracking-widest">
+              🔒 Participación anónima y segura bajo estándares académicos.
+            </p>
           </div>
 
           <div className="mt-12 flex justify-center items-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-[#f1c40f] rounded-full blur-2xl opacity-20 animate-pulse"></div>
               <img 
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Escudo_de_la_Universidad_de_Chile.svg/1200px-Escudo_de_la_Universidad_de_Chile.svg.png" 
                 alt="Logo U de Chile" 
@@ -38,10 +40,6 @@ export default function Home() {
               />
             </div>
           </div>
-
-          <p className="text-[10px] text-gray-400 mt-8 uppercase tracking-widest">
-            🔒 Participación anónima y segura bajo estándares académicos.
-          </p>
         </div>
       </section>
 
@@ -58,7 +56,7 @@ export default function Home() {
             <div className="p-6">
               <div className="text-4xl mb-4">📜</div>
               <h3 className="font-bold mb-2">Escuchar al hincha es respetar su historia</h3>
-              <p className="text-sm text-gray-600">Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura.</p>
+              <p className="text-sm text-gray-600">Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidade y cultura.</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-4">⚡</div>
