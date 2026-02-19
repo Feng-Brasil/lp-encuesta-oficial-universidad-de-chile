@@ -16,7 +16,7 @@ export default function Home() {
           </h1>
           
           <p className="text-lg md:text-xl text-[#e0e0e0] mb-8 leading-relaxed max-w-2xl">
-            Ser hincha de LaU es estar en las buenas y en las difíciles. Es llenar el estadio, alentar sin parar y defender estos colores en cualquier lugar. Ahora es momento de hacernos escuchar.
+            Ser hincha de LaU es estar en las buenas y en las difíciles. Es llenar el estadio, alentar sin parar y defender estos colores en qualquer lugar. Ahora es momento de hacernos escuchar.
           </p>
 
           <div className="flex flex-col items-center gap-4">
@@ -51,17 +51,17 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-[#003087] mb-12">¿Por qué tu voz es clave para La U?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6">
-              <div className="text-4xl mb-4">🏟️</div>
+              <div className="text-4xl mb-4">💙</div>
               <h3 className="font-bold mb-2">Somos identidad azul</h3>
               <p className="text-sm text-gray-600">Tu participación permite entender quiénes somos como comunidad bullanguera: cómo vivimos la U, cómo alentamos y qué esperamos del club que amamos.</p>
             </div>
             <div className="p-6">
-              <div className="text-4xl mb-4">📊</div>
+              <div className="text-4xl mb-4">📜</div>
               <h3 className="font-bold mb-2">Escuchar al hincha es respetar su historia</h3>
               <p className="text-sm text-gray-600">Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura.</p>
             </div>
             <div className="p-6">
-              <div className="text-4xl mb-4">📢</div>
+              <div className="text-4xl mb-4">⚡</div>
               <h3 className="font-bold mb-2">Tu opinión influye en decisiones reales</h3>
               <p className="text-sm text-gray-600">Las conclusiones de este estudio serán consideradas en planes estratégicos y mejoras para el hincha. No es simbólico: tiene impacto.</p>
             </div>
