@@ -1,37 +1,37 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f9fa] font-sans text-[#1a1a1a]">
-      {/* Hero Section */}
-      <section className="relative bg-[#003087] text-[#ffffff] py-12 lg:py-32 px-4 overflow-hidden">
+      {/* Hero Section - Altura optimizada de py-12/lg:py-32 a py-8/lg:py-16 */}
+      <section className="relative bg-[#003087] text-[#ffffff] py-8 lg:py-16 px-4 overflow-hidden">
         {/* Decorative Element */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#d91c21] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
-          {/* Nuevo Escudo LaU arriba del texto */}
-          <div className="mb-8">
+          {/* Nuevo Escudo LaU arriba del texto - Margen reducido de mb-8 a mb-4 */}
+          <div className="mb-4">
             <img 
               src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Fevereiro/1902/Emblema_del_Club_Universidad_de_Chile.png" 
               alt="Escudo Universidad de Chile" 
-              className="w-24 h-24 md:w-32 md:h-32 object-contain drop-shadow-xl"
+              className="w-20 h-20 md:w-28 md:h-28 object-contain drop-shadow-xl"
             />
           </div>
 
-          <div className="inline-block bg-[#d91c21] text-white px-4 py-1 rounded-full text-sm font-bold mb-6 tracking-wider uppercase">
+          <div className="inline-block bg-[#d91c21] text-white px-4 py-1 rounded-full text-sm font-bold mb-4 tracking-wider uppercase">
             Censo Oficial Club Universidad de Chile
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight uppercase">
+          <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight uppercase">
             ¡Bullanguero, <br /> hazte escuchar!
           </h1>
           
-          <p className="text-lg md:text-xl text-[#e0e0e0] mb-8 leading-relaxed max-w-2xl">
+          <p className="text-lg md:text-xl text-[#e0e0e0] mb-6 leading-relaxed max-w-2xl">
             Estuvimos en las buenas y en las difíciles. Llenamos el estadio y defendimos la camiseta. Hoy es momento de que nuestra voz también juegue.
           </p>
 
           <div className="flex flex-col items-center gap-4">
             <a 
               href="#encuesta"
-              className="inline-block text-center py-5 px-12 bg-[#d91c21] hover:bg-[#b5171b] text-white font-black rounded-lg transition-transform hover:scale-[1.05] active:scale-95 shadow-2xl uppercase tracking-widest text-lg"
+              className="inline-block text-center py-4 px-12 bg-[#d91c21] hover:bg-[#b5171b] text-white font-black rounded-lg transition-transform hover:scale-[1.05] active:scale-95 shadow-2xl uppercase tracking-widest text-lg"
             >
               PARTICIPAR AHORA
             </a>
