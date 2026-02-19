@@ -48,22 +48,22 @@ export default function Home() {
       {/* Benefits/Info Section */}
       <section id="encuesta" className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-[#003087] mb-12">¿Por qué es importante tu participación?</h2>
+          <h2 className="text-3xl font-bold text-[#003087] mb-12">¿Por qué tu voz es clave para La U?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6">
               <div className="text-4xl mb-4">🏟️</div>
-              <h3 className="font-bold mb-2">Identidad</h3>
-              <p className="text-sm text-gray-600">Representa fielmente los valores y la pasión de nuestra hinchada.</p>
+              <h3 className="font-bold mb-2">Somos identidad azul</h3>
+              <p className="text-sm text-gray-600">Tu participación permite entender quiénes somos como comunidad bullanguera: cómo vivimos la U, cómo alentamos y qué esperamos del club que amamos.</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-4">📊</div>
-              <h3 className="font-bold mb-2">Credibilidad</h3>
-              <p className="text-sm text-gray-600">Datos oficiales procesados por expertos de la Universidad.</p>
+              <h3 className="font-bold mb-2">Escuchar al hincha es respetar su historia</h3>
+              <p className="text-sm text-gray-600">Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura.</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-4">📢</div>
-              <h3 className="font-bold mb-2">Impacto</h3>
-              <p className="text-sm text-gray-600">Tus respuestas influyen directamente en las decisiones futuras.</p>
+              <h3 className="font-bold mb-2">Tu opinión influye en decisiones reales</h3>
+              <p className="text-sm text-gray-600">Las conclusiones de este estudio serán consideradas en planes estratégicos y mejoras para el hincha. No es simbólico: tiene impacto.</p>
             </div>
           </div>
         </div>
