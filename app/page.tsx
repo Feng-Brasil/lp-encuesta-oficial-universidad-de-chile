@@ -7,6 +7,15 @@ export default function Home() {
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#d91c21] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
+          {/* Nuevo Escudo LaU arriba del texto */}
+          <div className="mb-8">
+            <img 
+              src="https://www.udechile.cl/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Ffunx-futbol%2Fdashboard%2FU%20DE%20CHILE-2023-04-03.png&w=96&q=100" 
+              alt="Escudo Universidad de Chile" 
+              className="w-24 h-24 md:w-32 md:h-32 object-contain drop-shadow-xl"
+            />
+          </div>
+
           <div className="inline-block bg-[#d91c21] text-white px-4 py-1 rounded-full text-sm font-bold mb-6 tracking-wider uppercase">
             Censo Oficial Club Universidad de Chile
           </div>
@@ -16,7 +25,7 @@ export default function Home() {
           </h1>
           
           <p className="text-lg md:text-xl text-[#e0e0e0] mb-8 leading-relaxed max-w-2xl">
-            Ser hincha de LaU es estar en las buenas y en las difíciles. Es llenar el estadio, alentar sin parar y defender estos colores en qualquer lugar. Ahora es momento de hacernos escuchar.
+            Ser hincha de LaU es estar en las buenas y en las difíciles. Es llenar el estadio, alentar sin parar y defender estos colores en cualquier lugar. Ahora es momento de hacernos escuchar.
           </p>
 
           <div className="flex flex-col items-center gap-4">
@@ -56,7 +65,7 @@ export default function Home() {
             <div className="p-6">
               <div className="text-4xl mb-4">📜</div>
               <h3 className="font-bold mb-2">Escuchar al hincha es respetar su historia</h3>
-              <p className="text-sm text-gray-600">Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidade y cultura.</p>
+              <p className="text-sm text-gray-600">Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura.</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-4">⚡</div>
