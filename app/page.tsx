@@ -39,16 +39,6 @@ export default function Home() {
               🔒 Participación anónima y segura bajo estándares académicos.
             </p>
           </div>
-
-          <div className="mt-12 flex justify-center items-center">
-            <div className="relative">
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Escudo_de_la_Universidad_de_Chile.svg/1200px-Escudo_de_la_Universidad_de_Chile.svg.png" 
-                alt="Logo U de Chile" 
-                className="w-48 h-48 object-contain relative z-10 drop-shadow-2xl"
-              />
-            </div>
-          </div>
         </div>
       </section>
 
