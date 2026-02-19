@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Censo Oficial Club Universidad de Chile',
   icons: {
-    icon: 'https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Fevereiro/1902/Emblema_del_Club_Universidad_de_Chile.png',
+    icon: 'https://www.udechile.cl/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Ffunx-futbol%2Fdashboard%2FU%20DE%20CHILE-2023-04-03.png&w=96&q=100',
   },
 };
 
@@ -19,7 +19,7 @@ export default function Home() {
           {/* Nuevo Escudo LaU arriba del texto - Margen reducido de mb-8 a mb-4 */}
           <div className="mb-4">
             <img 
-              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Fevereiro/1902/Emblema_del_Club_Universidad_de_Chile.png" 
+              src="https://www.udechile.cl/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Ffunx-futbol%2Fdashboard%2FU%20DE%20CHILE-2023-04-03.png&w=96&q=100" 
               alt="Escudo Universidad de Chile" 
               className="w-20 h-20 md:w-28 md:h-28 object-contain drop-shadow-xl"
             />
@@ -102,7 +102,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8 text-center">
           <div className="flex flex-col items-center">
             <img 
-              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Fevereiro/1902/Emblema_del_Club_Universidad_de_Chile.png" 
+              src="https://www.udechile.cl/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Ffunx-futbol%2Fdashboard%2FU%20DE%20CHILE-2023-04-03.png&w=96&q=100" 
               alt="Escudo Universidad de Chile" 
               className="w-16 h-16 object-contain mb-4"
             />
