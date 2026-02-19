@@ -76,7 +76,8 @@ export default function Home() {
               className="w-16 h-16 object-contain mb-4"
             />
             <p className="text-[#e0e0e0] text-sm italic">
-              Censo Oficial del Romántico Viajero. Más que una pasión, un sentimento.
+              Censo Oficial del Romántico Viajero.<br />
+              Más que una pasión, un sentimiento.
             </p>
           </div>
           
