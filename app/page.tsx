@@ -42,25 +42,48 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Benefits/Info Section */}
-      <section id="encuesta" className="py-20 px-4 bg-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-[#003087] mb-12">¿Por qué tu voz es clave para La U?</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6">
-              <div className="text-4xl mb-4">💙</div>
-              <h3 className="font-bold mb-2">Somos identidad azul</h3>
-              <p className="text-sm text-gray-600">Tu participación permite entender quiénes somos como comunidad bullanguera: cómo vivimos la U, cómo alentamos y qué esperamos del club que amamos.</p>
+      {/* Benefits/Info Section - Updated to Vertical Bars Layout */}
+      <section id="encuesta" className="py-24 px-4 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <div className="mb-16 text-left border-l-8 border-[#d91c21] pl-6">
+            <h2 className="text-4xl font-black text-[#003087] uppercase tracking-tight">
+              ¿Por qué tu voz es clave para La U?
+            </h2>
+            <p className="text-gray-500 mt-2 font-medium uppercase tracking-widest text-sm">Compromiso Institucional</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-12">
+            {/* Item 1 */}
+            <div className="flex flex-col items-start">
+              <div className="flex items-center mb-4">
+                <div className="w-1.5 h-8 bg-[#003087] mr-4"></div>
+                <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Somos identidad azul</h3>
+              </div>
+              <p className="text-gray-600 leading-relaxed text-sm border-l border-gray-100 pl-5">
+                Tu participación permite entender quiénes somos como comunidad bullanguera: cómo vivimos la U, cómo alentamos y qué esperamos del club que amamos.
+              </p>
             </div>
-            <div className="p-6">
-              <div className="text-4xl mb-4">📜</div>
-              <h3 className="font-bold mb-2">Escuchar al hincha es respetar su historia</h3>
-              <p className="text-sm text-gray-600">Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identity y cultura.</p>
+
+            {/* Item 2 */}
+            <div className="flex flex-col items-start">
+              <div className="flex items-center mb-4">
+                <div className="w-1.5 h-8 bg-[#003087] mr-4"></div>
+                <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Respeto a la historia</h3>
+              </div>
+              <p className="text-gray-600 leading-relaxed text-sm border-l border-gray-100 pl-5">
+                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura, honrando el legado del Romántico Viajero.
+              </p>
             </div>
-            <div className="p-6">
-              <div className="text-4xl mb-4">⚡</div>
-              <h3 className="font-bold mb-2">Tu opinión influye en decisiones reales</h3>
-              <p className="text-sm text-gray-600">Las conclusiones de este estudio serán consideradas en planes estratégicos y mejoras para el hincha. No es simbólico: tiene impacto.</p>
+
+            {/* Item 3 */}
+            <div className="flex flex-col items-start">
+              <div className="flex items-center mb-4">
+                <div className="w-1.5 h-8 bg-[#003087] mr-4"></div>
+                <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Decisiones reales</h3>
+              </div>
+              <p className="text-gray-600 leading-relaxed text-sm border-l border-gray-100 pl-5">
+                Las conclusiones de este estudio serán consideradas en planes estratégicos y mejoras para el hincha. No es simbólico: tiene impacto directo.
+              </p>
             </div>
           </div>
         </div>
