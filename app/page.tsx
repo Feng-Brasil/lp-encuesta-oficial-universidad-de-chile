@@ -49,7 +49,6 @@ export default function Home() {
             <h2 className="text-4xl font-black text-[#003087] uppercase tracking-tight">
               ¿Por qué tu voz es clave para La U?
             </h2>
-            <p className="text-gray-500 mt-2 font-medium uppercase tracking-widest text-sm">Compromiso Institucional</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-12">
@@ -71,7 +70,7 @@ export default function Home() {
                 <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Respeto a la historia</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-sm border-l border-gray-100 pl-5">
-                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura, honrando el legado del Romántico Viajero.
+                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identity y cultura, honrando el legado del Romántico Viajero.
               </p>
             </div>
 
