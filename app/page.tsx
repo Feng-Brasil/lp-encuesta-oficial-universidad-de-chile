@@ -10,7 +10,7 @@ export default function Home() {
           {/* Nuevo Escudo LaU arriba del texto */}
           <div className="mb-8">
             <img 
-              src="https://www.udechile.cl/_next/image?url=https%3A%2F%2Fs3.amazonaws.com%2Ffunx-futbol%2Fdashboard%2FU%20DE%20CHILE-2023-04-03.png&w=96&q=100" 
+              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Fevereiro/1902/Emblema_del_Club_Universidad_de_Chile.png" 
               alt="Escudo Universidad de Chile" 
               className="w-24 h-24 md:w-32 md:h-32 object-contain drop-shadow-xl"
             />
@@ -69,12 +69,14 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-[#003087] text-[#ffffff] py-12 px-4 border-t-4 border-[#d91c21]">
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8 text-center">
-          <div>
-            <div className="text-2xl font-black tracking-tighter mb-2">
-              UNIVERSIDAD <span className="text-[#d91c21]">DE CHILE</span>
-            </div>
+          <div className="flex flex-col items-center">
+            <img 
+              src="https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Fevereiro/1902/Emblema_del_Club_Universidad_de_Chile.png" 
+              alt="Escudo Universidad de Chile" 
+              className="w-16 h-16 object-contain mb-4"
+            />
             <p className="text-[#e0e0e0] text-sm italic">
-              Censo Oficial del Romántico Viajero. Más que una pasión, un sentimiento.
+              Censo Oficial del Romántico Viajero. Más que una pasión, un sentimento.
             </p>
           </div>
           
