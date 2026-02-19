@@ -43,7 +43,9 @@ export default function Home() {
 
           <div className="flex flex-col items-center gap-4">
             <a 
-              href="#encuesta"
+              href="https://forms.office.com/pages/responsepage.aspx?id=xYQXFMt3k0-DEgyIeVLI42ofbPu2YoROuo7SN_gg9ZtUN0pIQU9UN1hXRFlJREhBU0hJRkkyR0FVMy4u&route=shorturl"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block text-center py-4 px-12 bg-[#d91c21] hover:bg-[#b5171b] text-white font-black rounded-lg transition-transform hover:scale-[1.05] active:scale-95 shadow-2xl uppercase tracking-widest text-lg"
             >
               PARTICIPAR AHORA
