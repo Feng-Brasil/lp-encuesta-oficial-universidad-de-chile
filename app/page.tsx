@@ -2,12 +2,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f9fa] font-sans text-[#1a1a1a]">
       {/* Hero Section */}
-      <section className="relative bg-[#002d72] text-[#ffffff] py-12 lg:py-32 px-4 overflow-hidden">
+      <section className="relative bg-[#003087] text-[#ffffff] py-12 lg:py-32 px-4 overflow-hidden">
         {/* Decorative Element */}
-        <div className="absolute top-0 right-0 w-64 h-64 bg-[#cc0000] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-64 h-64 bg-[#d91c21] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
-          <div className="inline-block bg-[#cc0000] text-white px-4 py-1 rounded-full text-sm font-bold mb-6 tracking-wider uppercase">
+          <div className="inline-block bg-[#d91c21] text-white px-4 py-1 rounded-full text-sm font-bold mb-6 tracking-wider uppercase">
             Censo Oficial Club Universidad de Chile
           </div>
           
@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4">
             <a 
               href="#encuesta"
-              className="inline-block text-center py-5 px-12 bg-[#cc0000] hover:bg-[#a30000] text-white font-black rounded-lg transition-transform hover:scale-[1.05] active:scale-95 shadow-2xl uppercase tracking-widest text-lg"
+              className="inline-block text-center py-5 px-12 bg-[#d91c21] hover:bg-[#b5171b] text-white font-black rounded-lg transition-transform hover:scale-[1.05] active:scale-95 shadow-2xl uppercase tracking-widest text-lg"
             >
               PARTICIPAR AHORA
             </a>
@@ -48,7 +48,7 @@ export default function Home() {
       {/* Benefits/Info Section */}
       <section id="encuesta" className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-[#002d72] mb-12">¿Por qué es importante tu participación?</h2>
+          <h2 className="text-3xl font-bold text-[#003087] mb-12">¿Por qué es importante tu participación?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6">
               <div className="text-4xl mb-4">🏟️</div>
@@ -70,11 +70,11 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1a1a1a] text-[#ffffff] py-12 px-4 border-t-4 border-[#cc0000]">
+      <footer className="bg-[#1a1a1a] text-[#ffffff] py-12 px-4 border-t-4 border-[#d91c21]">
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8 text-center">
           <div>
             <div className="text-2xl font-black tracking-tighter mb-2">
-              UNIVERSIDAD <span className="text-[#cc0000]">DE CHILE</span>
+              UNIVERSIDAD <span className="text-[#d91c21]">DE CHILE</span>
             </div>
             <p className="text-gray-400 text-sm italic">"Más que una pasión, una institución."</p>
           </div>
