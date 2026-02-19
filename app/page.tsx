@@ -21,11 +21,11 @@ export default function Home() {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black mb-6 leading-tight uppercase">
-            ¡Bullanguero, hazte escuchar!
+            ¡Bullanguero, <br /> hazte escuchar!
           </h1>
           
           <p className="text-lg md:text-xl text-[#e0e0e0] mb-8 leading-relaxed max-w-2xl">
-            Ser hincha de LaU es estar en las buenas y en las difíciles. Es llenar el estadio, alentar sin parar y defender estos colores en cualquier lugar. Ahora es momento de hacernos escuchar.
+            Estuvimos en las buenas y en las difíciles. Llenamos el estadio y defendimos la camiseta. Hoy es momento de que nuestra voz también juegue.
           </p>
 
           <div className="flex flex-col items-center gap-4">
