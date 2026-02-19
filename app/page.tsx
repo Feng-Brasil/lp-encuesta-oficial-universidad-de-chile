@@ -29,7 +29,8 @@ export default function Home() {
           </div>
 
           <div className="inline-block bg-[#d91c21] text-white px-4 py-1 rounded-full text-sm font-bold mb-4 tracking-wider uppercase">
-            Censo Oficial Club Universidad de Chile
+            <span className="block md:hidden whitespace-pre-line">CENSO OFICIAL{"\n"}CLUB UNIVERSIDAD DE CHILE</span>
+            <span className="hidden md:block">Censo Oficial Club Universidad de Chile</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight uppercase">
