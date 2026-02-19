@@ -42,16 +42,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Benefits/Info Section - Updated to Vertical Bars Layout */}
-      <section id="encuesta" className="py-24 px-4 bg-white">
+      {/* Benefits/Info Section - Optimized height (py-12 instead of py-24) */}
+      <section id="encuesta" className="py-12 px-4 bg-white">
         <div className="max-w-5xl mx-auto">
-          <div className="mb-16 text-left border-l-8 border-[#d91c21] pl-6">
+          <div className="mb-10 text-left border-l-8 border-[#d91c21] pl-6">
             <h2 className="text-4xl font-black text-[#003087] uppercase tracking-tight">
               ¿Por qué tu voz es clave para La U?
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-12">
+          <div className="grid md:grid-cols-3 gap-8">
             {/* Item 1 */}
             <div className="flex flex-col items-start">
               <div className="flex items-center mb-4">
