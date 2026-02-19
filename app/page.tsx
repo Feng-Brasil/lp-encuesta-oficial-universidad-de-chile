@@ -1,3 +1,12 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Censo Oficial Club Universidad de Chile',
+  icons: {
+    icon: 'https://st-barcelonasc.s3.sa-east-1.amazonaws.com/email/2026/Fevereiro/1902/Emblema_del_Club_Universidad_de_Chile.png',
+  },
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f9fa] font-sans text-[#1a1a1a]">
