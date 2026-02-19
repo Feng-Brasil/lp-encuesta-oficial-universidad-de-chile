@@ -70,24 +70,19 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1a1a1a] text-[#ffffff] py-12 px-4 border-t-4 border-[#d91c21]">
+      <footer className="bg-[#003087] text-[#ffffff] py-12 px-4 border-t-4 border-[#d91c21]">
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8 text-center">
           <div>
             <div className="text-2xl font-black tracking-tighter mb-2">
               UNIVERSIDAD <span className="text-[#d91c21]">DE CHILE</span>
             </div>
-            <p className="text-gray-400 text-sm italic">"Más que una pasión, una institución."</p>
+            <p className="text-[#e0e0e0] text-sm italic">
+              Censo Oficial del Romántico Viajero. Más que una pasión, un sentimiento.
+            </p>
           </div>
           
-          <div className="flex gap-6 text-sm text-gray-400">
-            <span className="hover:text-white transition-colors cursor-pointer">Privacidad</span>
-            <span className="hover:text-white transition-colors cursor-pointer">Términos</span>
-            <span className="hover:text-white transition-colors cursor-pointer">Contacto</span>
-          </div>
-          
-          <div className="text-xs text-gray-500">
-            © 2024 Departamento de Estudios Estadísticos.<br />
-            Todos los derechos reservados.
+          <div className="text-xs text-[#e0e0e0]">
+            © 2026 Club Universidad de Chile. Todos los derechos reservados.
           </div>
         </div>
       </footer>
