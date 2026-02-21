@@ -71,7 +71,7 @@ export default function Home() {
             <div className="flex flex-col items-start">
               <div className="flex items-center mb-6">
                 <div className="w-1.5 h-8 bg-[#003087] mr-4"></div>
-                <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Somos identidad azul</h3>
+                <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Somos identidad</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-base border-l border-gray-100 pl-5">
                 Tu participación permite entender quiénes somos como comunidad bullanguera: cómo vivimos la U, cómo alentamos y qué esperamos del club que amamos.
