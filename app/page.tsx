@@ -3,7 +3,20 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Censo Oficial Club Universidad de Chile',
   icons: {
-    icon: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
+    icon: [
+      {
+        url: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
+        href: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
+      },
+    ],
+    apple: [
+      {
+        url: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+    shortcut: ['https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png'],
   },
 };
 
