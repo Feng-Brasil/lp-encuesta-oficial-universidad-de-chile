@@ -27,7 +27,7 @@ export default function Home() {
       <section 
         className="relative bg-[#003087] text-[#ffffff] py-8 lg:py-16 px-4 overflow-hidden bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: "linear-gradient(rgba(0, 48, 135, 0.85), rgba(0, 48, 135, 0.85)), url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LaU_BG-Scrol1l.png')" 
+          backgroundImage: "linear-gradient(rgba(0, 48, 135, 0.85), rgba(0, 48, 135, 0.85)), url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LaU_BG-Scrol1l_6.png')" 
         }}
       >
         {/* Decorative Element */}
