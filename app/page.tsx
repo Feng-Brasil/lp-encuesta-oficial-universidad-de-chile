@@ -23,16 +23,13 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f9fa] font-sans text-[#1a1a1a]">
-      {/* Hero Section - Background Image Updated */}
+      {/* Hero Section - Background Image Updated with full opacity and no overlays */}
       <section 
         className="relative bg-[#003087] text-[#ffffff] py-8 lg:py-16 px-4 overflow-hidden bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: "linear-gradient(rgba(0, 48, 135, 0.85), rgba(0, 48, 135, 0.85)), url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LaU_BG-Scrol1l_6.png')" 
+          backgroundImage: "url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LaU_BG-Scrol1l_6.png')" 
         }}
       >
-        {/* Decorative Element */}
-        <div className="absolute top-0 right-0 w-64 h-64 bg-[#d91c21] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
-        
         <div className="max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
           {/* Nuevo Escudo LaU arriba del texto */}
           <div className="mb-4">
@@ -48,11 +45,11 @@ export default function Home() {
             <span className="hidden md:block">Censo Oficial Club Universidad de Chile</span>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight uppercase">
+          <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight uppercase drop-shadow-lg">
             ¡Bullanguero, <br /> hazte escuchar!
           </h1>
           
-          <p className="text-lg md:text-xl text-[#e0e0e0] mb-6 leading-relaxed max-w-2xl">
+          <p className="text-lg md:text-xl text-[#ffffff] mb-6 leading-relaxed max-w-2xl drop-shadow-md font-medium">
             Estuvimos en las buenas y en las difíciles. Llenamos el estadio y defendimos la camiseta. Hoy es momento de que nuestra voz también juegue.
           </p>
 
@@ -65,7 +62,7 @@ export default function Home() {
             >
               PARTICIPAR AHORA
             </a>
-            <p className="text-[10px] text-gray-400 mt-2 uppercase tracking-widest">
+            <p className="text-[10px] text-white mt-2 uppercase tracking-widest drop-shadow-sm">
               🔒 La información recopilada será gestionada bajo criterios de confidencialidad y uso institucional exclusivo.
             </p>
           </div>
@@ -100,7 +97,7 @@ export default function Home() {
                 <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Respeto a la historia</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-base border-l border-gray-100 pl-5">
-                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura, honrando el legado del Romántico Viajero.
+                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identity y cultura, honrando el legado del Romántico Viajero.
               </p>
             </div>
 
