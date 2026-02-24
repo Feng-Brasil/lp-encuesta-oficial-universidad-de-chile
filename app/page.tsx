@@ -49,7 +49,7 @@ export default function Home() {
             ¡Bullanguero, <br /> hazte escuchar!
           </h1>
           
-          <p className="text-lg md:text-xl text-[#ffffff] mb-6 leading-tight max-w-2xl drop-shadow-md font-medium line-clamp-2">
+          <p className="text-base md:text-lg text-[#ffffff] mb-6 leading-tight max-w-2xl drop-shadow-md font-medium line-clamp-2">
             Estuvimos en las buenas y en las difíciles. Llenamos el estadio y defendimos la camiseta. Hoy es momento de que nuestra voz también juegue.
           </p>
 
