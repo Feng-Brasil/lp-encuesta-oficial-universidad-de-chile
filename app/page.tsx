@@ -23,10 +23,10 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f8f9fa] font-sans text-[#1a1a1a]">
-      {/* Hero Section - Background Image with 80% opacity applied via pseudo-element */}
+      {/* Hero Section - Background Image with 70% opacity applied via pseudo-element */}
       <section className="relative bg-[#003087] text-[#ffffff] py-8 lg:py-16 px-4 overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-80"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70"
           style={{ 
             backgroundImage: "url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LaU_BG-Scrol1l_6.png')" 
           }}
