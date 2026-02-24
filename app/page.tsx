@@ -114,7 +114,7 @@ export default function Home() {
             />
             <p className="text-[#e0e0e0] text-sm italic">
               Censo Oficial del Romántico Viajero.<br />
-              Más que una pasión, un sentimiento.
+              Más que una pasión, un sentimento.
             </p>
           </div>
           
