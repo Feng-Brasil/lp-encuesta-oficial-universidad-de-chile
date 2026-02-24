@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Censo Oficial Club Universidad de Chile',
   icons: {
-    icon: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/1902/Emblema_del_Club_Universidad_de_Chile.png',
+    icon: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
   },
 };
 
@@ -22,7 +22,7 @@ export default function Home() {
           {/* Nuevo Escudo LaU arriba del texto */}
           <div className="mb-4">
             <img 
-              src="https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/1902/Emblema_del_Club_Universidad_de_Chile.png" 
+              src="https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png" 
               alt="Escudo Universidad de Chile" 
               className="w-20 h-20 md:w-28 md:h-28 object-contain drop-shadow-xl"
             />
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col items-center gap-8 text-center">
           <div className="flex flex-col items-center">
             <img 
-              src="https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/1902/Emblema_del_Club_Universidad_de_Chile.png" 
+              src="https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png" 
               alt="Escudo Universidad de Chile" 
               className="w-16 h-16 object-contain mb-4"
             />
