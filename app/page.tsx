@@ -5,18 +5,18 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
-        href: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
+        url: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU_5.png',
+        href: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU_5.png',
       },
     ],
     apple: [
       {
-        url: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png',
+        url: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU_5.png',
         sizes: '180x180',
         type: 'image/png',
       },
     ],
-    shortcut: ['https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU.png'],
+    shortcut: ['https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU_5.png'],
   },
 };
 
