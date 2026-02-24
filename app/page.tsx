@@ -26,7 +26,9 @@ export default function Home() {
       {/* Hero Section - Background Image Updated */}
       <section 
         className="relative bg-[#003087] text-[#ffffff] py-8 lg:py-16 px-4 overflow-hidden bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "linear-gradient(rgba(0, 48, 135, 0.85), rgba(0, 48, 135, 0.85)), url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LaU_BG-Scrol1l.png')" }}
+        style={{ 
+          backgroundImage: "linear-gradient(rgba(0, 48, 135, 0.85), rgba(0, 48, 135, 0.85)), url('https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LaU_BG-Scrol1l.png')" 
+        }}
       >
         {/* Decorative Element */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-[#d91c21] opacity-20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
@@ -127,7 +129,7 @@ export default function Home() {
             />
             <p className="text-[#e0e0e0] text-sm italic">
               Censo Oficial del Romántico Viajero.<br />
-              Más que una pasión, un sentimento.
+              Más que una pasión, un sentimiento.
             </p>
           </div>
           
