@@ -88,7 +88,7 @@ export default function Home() {
                 <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Somos identidad</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-base border-l border-gray-100 pl-5">
-                Tu participación permite entender quiénes somos como comunidad bullanguera: cómo vivimos la U, cómo alentamos y qué esperamos del club que amamos.
+                Tu participación nos permite comprendernos como comunidad bullanguera: nuestra forma de vivir La U, de alentar y nuestras expectativas sobre el Club que amamos.
               </p>
             </div>
 
