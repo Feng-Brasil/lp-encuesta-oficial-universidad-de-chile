@@ -52,7 +52,7 @@ export default function Home() {
           </h1>
           
           <p className="text-base md:text-lg text-[#ffffff] mb-6 leading-tight max-w-2xl drop-shadow-md font-medium line-clamp-2">
-            Estuvimos en las buenas y en las difíciles. Llenamos el estadio y defendimos la camiseta. Hoy es momento de que nuestra voz también juegue.
+            Estamos en las buenas y en las malas. Llenamos el estadio y defendemos la camiseta. Ahora es momento de que nuestra voz también juegue.
           </p>
 
           <div className="flex flex-col items-center gap-4">
