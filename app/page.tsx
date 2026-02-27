@@ -65,7 +65,7 @@ export default function Home() {
               PARTICIPAR AHORA
             </a>
             <p className="text-[10px] text-white mt-2 uppercase tracking-widest drop-shadow-sm">
-              🔒 La información recopilada será gestionada bajo criterios de confidencialidad y uso institucional exclusivo.
+              🔒 La informação recopilada será gestionada bajo criterios de confidencialidad y uso institucional exclusivo.
             </p>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function Home() {
                 <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Respeto a la historia</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-base border-l border-gray-100 pl-5">
-                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identity y cultura, honrando el legado del Romántico Viajero.
+                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura, honrando el legado del Romántico Viajero.
               </p>
             </div>
 
