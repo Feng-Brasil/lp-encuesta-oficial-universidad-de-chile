@@ -2,6 +2,24 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Encuesta Oficial Club Universidad de Chile',
+  description: 'Participar ahora',
+  openGraph: {
+    title: 'Participar ahora',
+    description: 'Participar ahora',
+    images: [
+      {
+        url: 'https://universidad-de-chile-st.s3.us-east-1.amazonaws.com/stg/assets/2402/LOGO-LAU_5.png',
+        width: 800,
+        height: 600,
+        alt: 'Club Universidad de Chile',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Participar ahora',
+    description: 'Participar ahora',
+  },
   icons: {
     icon: [
       {
