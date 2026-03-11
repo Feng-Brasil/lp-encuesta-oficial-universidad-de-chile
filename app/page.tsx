@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Censo Oficial Club Universidad de Chile',
+  title: 'Encuesta Oficial Club Universidad de Chile',
   icons: {
     icon: [
       {
@@ -43,8 +43,8 @@ export default function Home() {
           </div>
 
           <div className="inline-block bg-[#d91c21] text-white px-4 py-1 rounded-full text-sm font-bold mb-4 tracking-wider uppercase">
-            <span className="block md:hidden whitespace-pre-line">CENSO OFICIAL{"\n"}CLUB UNIVERSIDAD DE CHILE</span>
-            <span className="hidden md:block">Censo Oficial Club Universidad de Chile</span>
+            <span className="block md:hidden whitespace-pre-line">ENCUESTA OFICIAL{"\n"}CLUB UNIVERSIDAD DE CHILE</span>
+            <span className="hidden md:block">Encuesta Oficial Club Universidad de Chile</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black mb-4 leading-tight uppercase drop-shadow-lg">
@@ -76,7 +76,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-16 text-left border-l-8 border-[#d91c21] pl-6">
             <h2 className="text-4xl md:text-5xl font-black text-[#003087] uppercase tracking-tight">
-              ¿Por qué tu voz es clave para La U?
+              ¿Por qué tu voz es clave para la U?
             </h2>
           </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
                 <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Somos identidad</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-base border-l border-gray-100 pl-5">
-                Tu participación nos permite comprendernos como comunidad bullanguera: nuestra forma de vivir La U, de alentar y nuestras expectativas sobre el Club que amamos.
+                Tu participación nos permite comprendernos como comunidad bullanguera: nuestra forma de vivir la U, de alentar y nuestras expectativas sobre el Club que amamos.
               </p>
             </div>
 
@@ -99,7 +99,7 @@ export default function Home() {
                 <h3 className="font-black text-xl text-[#003087] uppercase tracking-tight">Respeto a la historia</h3>
               </div>
               <p className="text-gray-600 leading-relaxed text-base border-l border-gray-100 pl-5">
-                Nuestro Club nace de su gente. Este Censo recoge esa voz para fortalecer nuestra identidad y cultura, honrando el legado del Romántico Viajero.
+                Nuestro Club nace de su gente. Esta encuesta recoge esa voz para fortalecer nuestra identidad y cultura, honrando el legado del Romántico Viajero.
               </p>
             </div>
 
@@ -127,7 +127,7 @@ export default function Home() {
               className="w-16 h-16 object-contain mb-4"
             />
             <p className="text-[#e0e0e0] text-sm italic">
-              Censo Oficial del Romántico Viajero.<br />
+              Encuesta Oficial del Romántico Viajero.<br />
               Más que una pasión, un sentimiento.
             </p>
           </div>
