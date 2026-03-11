@@ -51,7 +51,7 @@ export default function Home() {
             ¡Bullanguero, <br /> hazte escuchar!
           </h1>
           
-          <p className="text-base md:text-lg text-[#ffffff] mb-6 leading-tight max-w-2xl drop-shadow-md font-medium line-clamp-2">
+          <p className="text-sm sm:text-base md:text-lg text-[#ffffff] mb-6 leading-tight max-w-2xl drop-shadow-md font-medium">
             Estamos en las buenas y en las malas. Llenamos el estadio y defendemos la camiseta. Ahora es momento de que nuestra voz también juegue.
           </p>
 
@@ -65,7 +65,7 @@ export default function Home() {
               PARTICIPAR AHORA
             </a>
             <p className="text-[10px] text-white mt-2 uppercase tracking-widest drop-shadow-sm">
-              🔒 La informação recopilada será gestionada bajo criterios de confidencialidad y uso institucional exclusivo.
+              🔒 La información recopilada será gestionada bajo criterios de confidencialidad y uso institucional exclusivo.
             </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function Home() {
             />
             <p className="text-[#e0e0e0] text-sm italic">
               Censo Oficial del Romántico Viajero.<br />
-              Más que una pasión, un sentimento.
+              Más que una pasión, un sentimiento.
             </p>
           </div>
           
