@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'Encuesta Oficial Club Universidad de Chile',
   description: 'Participar ahora',
   openGraph: {
-    title: 'Participar ahora',
+    title: 'Encuesta Oficial Club Universidad de Chile',
     description: 'Participar ahora',
     images: [
       {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Participar ahora',
+    title: 'Encuesta Oficial Club Universidad de Chile',
     description: 'Participar ahora',
   },
   icons: {
@@ -146,7 +146,7 @@ export default function Home() {
             />
             <p className="text-[#e0e0e0] text-sm italic">
               Encuesta Oficial del Romántico Viajero.<br />
-              Más que una pasión, un sentimiento.
+              Más que una pasión, un sentimento.
             </p>
           </div>
           
